@@ -36,11 +36,11 @@ return [
     ],
 
     'openweathermap' => [
-        'key' => 'c5d010f027b9729f38e612460ba1d540'
+        'key' => env('OPEN_WEATHER_MAP')
     ],
 
     'weatherapi' => [
-        'key' => 'dafe7917715742f3a1b140046241912'
+        'key' => env('dafe7917715742f3a1b140046241912')
     ]
 
 ];
