@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             WeatherServiceSeeder::class,
             CitySeeder::class,
+            AdminSeeder::class,
         ]);
     }
 }
